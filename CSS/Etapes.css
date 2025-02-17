@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 40%;
+    background: white;
+    padding: 4vw;
+    margin: auto;
+    border-radius: 2vw;
+    box-shadow: 0 0 2vw rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+blockquote {
+    background:rgba(249, 189, 189, 0.837);
+    border-left: 1vw solid  #8B0000;
+    font-style: italic;
+    font-size: 1vw;
+    padding: 1vw;
+    margin: 3vw 2vw;
+    width: 90%;
+}
+p {
+    line-height: 1.6;
+    color: #555;
+    margin: 3vw 2vw;
+
+}
+.G {
+    font-weight: bold;
+    color: #d35400;
+}
+
+
+
+
+#parent{
+    position: relative;
+  }
+  #pas{
+    position: absolute;
+    display: none;
+    padding: 1vw 0;
+  
+  }
+  #pas li:nth-child(1){
+    margin-bottom: 1vw;
+  }
+  #pas li a{
+    padding: .5vw;
+  }
+  #pas li a:hover{
+    background: greenyellow;
+  }
+  #parent:hover #pas{
+    display: block;
+  }
+  
+  #Etapes{
+     
+      background: rgb(243, 239, 239);
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      display: inline-block;
+      align-items: center;
+      padding:2vw ;
+      /* width: 100%;
+      height: 40%; */
+  
+      margin-top: 10vw;
+  }
+  #Etapes .F{
+     
+  
+  }
+  #Etapes .F h2{
+      text-transform: uppercase;
+      font-family: calibri;
+      color: #8B0000;
+      text-align: center;
+      font-size: 2.5vw;
+      margin-top: 2vw;
+      text-decoration: dotted;
+      padding: 5vw;
+  }
+  #Etapes .box-c{
+      width:100%;
+      height: 40vw;
+      box-shadow: 0 0 0.6vw rgba(0, 0, 0, 0.425);
+      justify-content: space-evenly;
+      display: flex;
+      padding: 1vw;
+  }
+  
+  #Etapes .box-c .c{
+      background: rgba(255, 255, 255, 0.674);
+      margin-top: 5vw;
+      /* height: 100%; */
+      width: 50%;
+  }
+  .box-c img{
+      width: 50%;
+      height: auto;
+      border-radius: 1vw;
+  }
+  .box-c .c h4{
+      text-transform: uppercase;
+      font-size: 2vw;
+      text-align: center;
+      font-family: calibri;
+  }
+  .box-c .c hr{
+      margin: 1.5vw 4vw;
+      /* border: solid 0.1vw rgba(0, 0, 0, 0.878); */
+      height: 0.2vw;
+      box-shadow:inset 0 0.1vw 0.2vw gray;
+  }
+  .box-c p{
+  text-align: justify;
+  padding: 2vw;
+  }
+
+
+   .btn {
+    display: block;
+    width: 12vw;
+    font-size: 1vw;
+    background: #9dd1f4c3;
+    color: black;
+    padding: .6vw;
+    text-decoration: none;
+    border-radius: .5vw;
+    font-weight: bold;
+   text-align: center;
+   margin-left: 2vw;
+}
+
+.btn:hover {
+    background: #54b2f1;
+    color: white;
+}

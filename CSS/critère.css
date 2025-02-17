@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 45%;
+    margin: auto;
+    background: white;
+    padding: 4vw;
+    border-radius: 2vw;
+    box-shadow: 0vw 0vw 2vw rgba(0, 0, 0, 0.1);
+    l
+}
+
+h1 {
+    font-size: 2vw;
+    padding: 1vw;
+    text-decoration: underline;
+}
+ h2 {
+    color: #333;
+    font-size: 1.2vw;
+    padding:1vw;
+}
+p {
+font-size: 1.2vw;
+padding: 1vw;
+}
+ul {
+    list-style-type: circle;
+    padding: 0;
+}
+ul li {
+    padding-left: 2.5vw;
+    margin-bottom: 1.5vw;
+}
+ul li ul{
+    list-style-type: square;
+}
+ul li ul li{
+padding-left: 3vw;
+}
+
