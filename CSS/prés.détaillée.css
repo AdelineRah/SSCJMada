@@ -12,7 +12,9 @@
     padding: 1vw;
  }
 .box img{
-    width: 38vw;
+    width: 30vw;
+    height: 20vw;
+    margin-top: 20vw;
     box-shadow: inset;
     border-radius: 1vw;
 

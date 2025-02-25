@@ -5,20 +5,36 @@
 }
 .container {
     font-family: Arial, sans-serif;
-    max-width: 45%;
+    width:100%;
     margin: auto;
     background: white;
-    padding: 4vw;
+    padding: 2dvb;
     border-radius: 2vw;
     box-shadow: 0vw 0vw 2vw rgba(0, 0, 0, 0.1);
-    l
+    justify-content: space-evenly;
+    display: flex;
 }
 
 h1 {
     font-size: 2vw;
     padding: 1vw;
     text-decoration: underline;
+    color: #8B0000;
+    /* text-align: center; */
 }
+.box {
+   width: 30%;
+   padding: 1vw;
+
+}
+.T{
+  padding: 2vw;  
+}
+img{
+    width: 26vw;
+    height: 25%;
+}
+
  h2 {
     color: #333;
     font-size: 1.2vw;

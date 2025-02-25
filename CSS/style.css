@@ -75,12 +75,12 @@ margin: 1.2vw ;
 
 
 .slider {
-    padding:5vw 6vw;
+    padding:2vw 4vw;
     background: wheat;
 }
 
 .slides img {
-height: 35vw;
+height: 30vw;
 object-fit: cover;
 border-radius: 1vw;
 }
@@ -91,7 +91,7 @@ border-radius: 1vw;
     /* object-position: 0 -2vw; */
 }
 .slides img:nth-child(3){
-    object-position: 0 -14vw;
+    /* object-position: 0 -14vw; */
 }
 .slides img:nth-child(4){
     object-position: 0 1vw;

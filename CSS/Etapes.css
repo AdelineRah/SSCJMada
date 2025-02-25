@@ -88,7 +88,7 @@ p {
       font-size: 2.5vw;
       margin-top: 2vw;
       text-decoration: dotted;
-      padding: 5vw;
+      padding: 4vw;
   }
   #Etapes .box-c{
       width:100%;
@@ -101,7 +101,7 @@ p {
   
   #Etapes .box-c .c{
       background: rgba(255, 255, 255, 0.674);
-      margin-top: 5vw;
+      margin-top: 4vw;
       /* height: 100%; */
       width: 50%;
   }
@@ -124,7 +124,7 @@ p {
   }
   .box-c p{
   text-align: justify;
-  padding: 2vw;
+  padding: 1vw;
   }
 
 

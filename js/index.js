@@ -6,7 +6,7 @@ $('.slides').slick({
     slidesToScroll: 1,
     arrows: true,
     infinite: true,
-    dots:false,
+    dots:true,
     responsive: [
           {
             breakpoint: 900,
