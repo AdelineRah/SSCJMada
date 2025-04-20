@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 5rem 10%;
+    
+}
+
+#Evoi\ en\ mission {
+    width: 100%;
+    margin: auto;
+    /* padding: 40px 0; */
+    font-family: 'Poppins', sans-serif;
+}
+#Evoi\ en\ mission h1{
+font-size: 1.2vw;
+text-transform: uppercase;
+color: rgb(241, 188, 51);
+margin-bottom: 2vw;
+}
+
+.Mission {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2vw;
+    margin-bottom:3vw;
+    padding: 2vw;
+    background: #f9f9f9;
+    border-radius: .2vw;
+    box-shadow: 0vw .2vw 1vw rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.Mission:hover {
+    transform: translateY(-5px);
+}
+
+.Mission img {
+    width: 40%;
+    height: 35vw;
+    border-radius: .6vw;
+    box-shadow: .1vw .1vw 1.5vw rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.Mission img:hover {
+    transform: scale(1.05);
+}
+
+
+.Ninnah {
+    width: 40%;
+    /* padding: 1vw; */
+}
+
+
+.Ninnah h2 {
+    color: #2c3e50;
+    font-size: 2vw;
+    /* padding: 4vw; */
+    font-weight: 600;
+    margin-bottom: 3vw;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.Ninnah h2::before {
+    /* content: "📌"; */
+    font-size: 2vw;
+    color: #e7d33c;
+}
+
+
+.Ninnah p {
+    font-size: 1.2vw;
+    /* padding: 4vw; */
+    color: #555;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.Ninnah .Auteur {
+    display: flex;
+    /* justify-content: end; */
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 1vw;
+    margin-top: 10vw; 
+
+}
+.Ninnah .Soeurs {
+    /* font-weight: bold; */
+    font-size: 1vw;
+    text-transform: ;
+    padding-left: 2vw;
+    color: #333;
+}
+
+
+.Ninnah .Auteur img {
+    width: 3vw;  
+    height: 3vw;
+    border-radius: 50%; 
+    box-shadow: 0vw .2vw 1vw rgba(0, 0, 0, 0.1);
+}

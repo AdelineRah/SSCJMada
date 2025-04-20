@@ -38,6 +38,7 @@ nav {
     display: flex; 
     justify-content: space-between; 
     align-items: center;
+    text-decoration: none;
     /* padding: 3vw;  */
 }
 nav ul {
@@ -46,7 +47,7 @@ nav ul {
     display: flex; 
 }
 .dropdown{
-    background:rgba(248, 9, 9, 0.427);
+    background:rgba(205, 77, 77, 0.915);
     border-radius: .5vw;
     position: absolute;
     top: 1.8vw;
@@ -82,10 +83,10 @@ nav ul li ul li a:hover{
     color:rgb(255, 234, 6);
 }
 nav ul li ul li {
-margin: 1.2vw ;
+    margin: 1.2vw ;
 }
- .btn2 {
-    width: 7vw;
+.btn2 {
+    width: 8vw;
     background: rgb(241, 188, 51);
     padding: .4vw;
     border-radius: .4vw;
@@ -93,6 +94,7 @@ margin: 1.2vw ;
 }
 .btn2 a{
     color: white;
+    text-align: center;
     font-size: 1.2vw;  
     text-decoration: none;
     list-style: none;
@@ -270,7 +272,7 @@ em {
 }
 
 .btn:hover {
-    background: #54b2f1;
+    background: rgb(241, 188, 51);
     color: white;
 }   
 
@@ -291,6 +293,10 @@ em {
     text-align: center;
     /* border: solid .1vw black; */
 
+}
+.title h2{
+    font-size: 2vw;
+    font-weight: bold;
 }
 
 .container{
@@ -511,6 +517,7 @@ em {
     text-align: left;
     text-transform: uppercase;
     font-family: caliri;
+    font-family: 'Poppins', 'sans-serif';
     /* border: solid blue; */
     position: absolute;
     top: 12vw;
@@ -810,7 +817,7 @@ a:hover {
 
 .column3 .email-input .send-button:hover {
     color: aqua;
-    background-color: #04519d;
+    background-color:rgb(241, 188, 51);
 }
 .column2 p{
     font-size: .8rem;
@@ -826,14 +833,44 @@ a:hover {
     margin-bottom: 2vw;
 }
 
-#wowslider-container1{
+/* #wowslider-container1{
     
   position: absolute;  
   left: 5vw;
   bottom: 5vw;
 
+} */
+#container-slide{
+    position: absolute ;
+    left: 0;
+    bottom:0;
 }
-.box-slide {
-    width: 100% !important;
-    border: solid .5vw white;
+#wowslider-container1{
+    height: 10vw !important;
+    width: 13vw !important;
+}
+.box-slide{
+    border: solid .2vw white;
+    
+}
+.box-slide img{
+    margin: 0 !important;
+}
+.ws_controls a {
+    width: 1vw !important;
+    font-size: 1vw !important;
+    display: none;
+}
+.ws_controls a span i{
+    font-size: 1vw !important;
+}
+.ws-title span{
+    color: rgb(241, 188, 51);
+    position: absolute;
+    font-size: .8vw !important;
+    bottom:0;
+    padding: .5vw !important;
+    width: 90%;
+    left:5%;
+    text-align: center;
 }

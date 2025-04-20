@@ -83,7 +83,7 @@ font-size: 1.2vw;
 padding: 1vw;
 }
 ul {
-    list-style-type: circle;
+    list-style-type: none;
     padding: 0;
 }
 ul li {
@@ -113,7 +113,7 @@ padding-left: 3vw;
 }
     
     .S_inscrire:hover {
-        background: #54b2f1;
+        background: rgb(241, 188, 51);
     color: white
     }
 

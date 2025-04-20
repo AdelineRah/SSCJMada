@@ -11,7 +11,7 @@
     padding: 4vw;
     margin: auto;
     border-radius: 2vw;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
 }
 
 .box-c img{

@@ -96,5 +96,82 @@
         </div>
 
     </section>
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tabs Auto Slide</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .tabs {
+      display: flex;
+      border-bottom: 2px solid #ccc;
+      cursor: pointer;
+    }
+    .tab {
+      padding: 10px 20px;
+      border: 1px solid transparent;
+      border-bottom: none;
+    }
+    .tab.active {
+      border: 1px solid #ccc;
+      border-bottom: 2px solid white;
+      background: #f0f0f0;
+    }
+    .tab-content {
+      display: none;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+    .tab-content.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="tabs" id="tabs">
+    <div class="tab active">Onglet 1</div>
+    <div class="tab">Onglet 2</div>
+    <div class="tab">Onglet 3</div>
+  </div>
+
+  <div class="tab-content active">Contenu de l’onglet 1</div>
+  <div class="tab-content">Contenu de l’onglet 2</div>
+  <div class="tab-content">Contenu de l’onglet 3</div>
+
+  <script>
+    const tabs = document.querySelectorAll('.tab');
+    const contents = document.querySelectorAll('.tab-content');
+    let current = 0;
+
+    function activateTab(index) {
+      tabs.forEach((tab, i) => {
+        tab.classList.toggle('active', i === index);
+        contents[i].classList.toggle('active', i === index);
+      });
+    }
+
+    // Changement manuel
+    tabs.forEach((tab, i) => {
+      tab.addEventListener('click', () => {
+        current = i;
+        activateTab(i);
+      });
+    });
+
+    // Auto slide
+    setInterval(() => {
+      current = (current + 1) % tabs.length;
+      activateTab(current);
+    }, 4000); // toutes les 4 secondes
+  </script>
+</body>
+</html>
+
 </body>
 </html>

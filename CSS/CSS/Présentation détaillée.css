@@ -3,45 +3,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
 }
 
 body{
-    font-family: 'Poppins', 'sans-serif';
     overflow-x: hidden;
+    padding: 5rem 10%;
 }
 .box{
     width: 100%;
     /* height: 40vw; */
-    box-shadow: 0 0 0.6vw rgba(0, 0, 0, 0.425);
-    justify-content: space-evenly;
+    /* box-shadow: 0 0 0.6vw rgba(0, 0, 0, 0.425); */
+    justify-content: space-between;
     display: flex;
     padding: 1vw;
  }
-.box img{
-    width: 30vw;
-    height: 20vw;
-    margin-top: 20vw;
-    box-shadow: inset;
-    border-radius: 1vw;
-
-}
-
-.container {
-    width: 80%;
-    /* margin: 10vw auto; */
-    background: #fff;
-    padding: 5vw;
-    border-radius: 2vw;
-    box-shadow: 0vw 10vw 5vw rgba(222, 221, 221, 0.715);
-    font-family: "Arial", sans-serif;
-}
-
-
+ 
+ .container {
+     width: 45%;
+     /* margin: 10vw auto; */
+     background: #fff;
+     padding: 2vw;
+     border-radius: 2vw;
+     /* box-shadow: 0vw 10vw 5vw rgba(222, 221, 221, 0.715); */
+     font-family: "Arial", sans-serif;
+    }
+    .photos{
+        width: 45%;
+        height: auto;
+        /* justify-content:center; */
+        flex-direction: column;
+        display: flex;
+        padding: 1vw; 
+        /* margin-top: 15vw; */
+    }
+    .photos .container-img{
+        width: 100%;
+        height: 20vw;
+        box-shadow: inset;
+        border-radius: 1vw;
+        
+    }
+    .photos .container-img img{
+        /* margin-top: 4vw; */
+    width: 25%;
+    height:16vw;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+   }
 h1 {
     color: #8B0000;
     text-align: center;
     font-size: 2.5vw;
-    margin-bottom: 5vw;
+    margin-bottom: 6vw;
     text-decoration: dotted;
 }
 
@@ -71,3 +86,32 @@ em {
     font-size: 1vw;
 }
 
+
+.section-wrapper {
+    display: flex;
+    align-items: flex-start; /* Pour aligner les débuts de blocs */
+    gap: 4vw; /* Espace entre les deux colonnes */
+}
+
+.container {
+    flex: 2; /* Plus large (texte) */
+}
+
+.Photos {
+    flex: 1; /* Plus étroit (images) */
+}
+
+.container-img {
+    margin-bottom: 4vw;
+}
+
+.container-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+@media (max-width: 768px) {
+    .section-wrapper {
+        flex-direction: column;
+    }
+}

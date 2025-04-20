@@ -72,7 +72,7 @@ input {
     border: 1px solid #ccc;
 }
 .btn:hover {
-    background: #2575fc;
+    background: rgb(241, 188, 51);
     color: white;
 }
 .signup-link {
