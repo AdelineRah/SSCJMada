@@ -131,11 +131,11 @@ nav ul li ul li {
     display: block;
     justify-content: center;
     /* border: solid  red 1vw; */
-    width: 40vw;
+    width: 60vw;
     /* height: 12vw; */
     position: absolute;
-    left: 31vw;
-    top: 10vw;
+    left: 23vw;
+    top: 14vw;
  }
  #appostolat .box1 h4{
     font-family: calibri;
@@ -196,8 +196,13 @@ nav ul li ul li {
     justify-content: space-between;
     display: flex;
     padding: 1vw;
+    margin-top: 4vw;
 }
-.box img{
+.box .jeunes{
+    margin-top: 4vw;
+    width: 45%;
+}
+.box .jeunes img{
     width: 100%;
     height: auto;
     /* border-radius:2vw; */
@@ -207,7 +212,7 @@ nav ul li ul li {
 
 
 .box-container{
-    width: 100%;
+    width: 45%;
     height: 40%;
     margin: .8vw auto;
     /* background: #fff; */
@@ -232,7 +237,7 @@ nav ul li ul li {
 }
 
 .box-container p {
-    padding:1vw;
+    padding:.6vw;
     text-align: justify;
     font-size: 1vw;
     margin-bottom: .5vw;
@@ -259,11 +264,12 @@ em {
 }
 .box-container .btn {
     display: block;
-    width:12vw;
+    width:6vw;
     font-size: 1vw;
     /* background: #9dd1f4c3; */
     color: black;
-    padding: .6vw;
+    padding: .4vw;
+    text-align: center;
     text-decoration: none;
     border-radius: 2vw;
     font-weight: bold;
@@ -274,6 +280,7 @@ em {
 .btn:hover {
     background: rgb(241, 188, 51);
     color: white;
+    border: solid white .1vw;
 }   
 
 #Pays{
@@ -331,6 +338,7 @@ em {
     /* border-left: solid .1vw black;   */
     /* border-top: solid .1vw black;   */
     text-align: center;
+    margin-bottom: 5vw;
 
 }
 .text h3{
@@ -463,6 +471,7 @@ em {
     width: 100%;
     padding: 5rem 10%;
     position: relative;
+    margin-top: 5vw;
     
 }
 #quêtes h4{
@@ -503,7 +512,7 @@ em {
     /* padding: 1vw; */
     margin-left: 4vw;
     position: absolute;
-    top: 10vw;
+    top: 6vw;
     left: 56vw;
    }
    #quêtes .assemblée .Région{
@@ -516,11 +525,9 @@ em {
     color: rgba(248, 9, 9, 0.514);
     text-align: left;
     text-transform: uppercase;
-    font-family: caliri;
-    font-family: 'Poppins', 'sans-serif';
     /* border: solid blue; */
     position: absolute;
-    top: 12vw;
+    top: 9vw;
     left: 59vw;
    }
    #quêtes .objectif{
@@ -532,7 +539,7 @@ em {
     /* border: solid blue; */
     z-index: 10;
     position: absolute;
-    top: 18vw;
+    top: 16vw;
     left: 53vw;
    }
    #quêtes .objectif h4{
@@ -625,12 +632,13 @@ em {
     padding: 0;
 }
 
-label {
-    /* font-weight: bold; */
+.column label {
+    font-size: 1.2vw;
+    font-weight: bold;
     margin-bottom: 5px;
 }
 
-input {
+.column input {
     width: 10vw;
     font-size: 2vw;
     padding: 2vw;
@@ -646,16 +654,16 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 1vw; /* Espace entre les deux colonnes */
-    width: 80%;
+    gap: 8vw; /* Espace entre les deux colonnes */
+    width: 95%;
     margin: auto;
 }
 
 /* Style de box4 */
 .box4 {
-    width: 100%;
+    width: 45%;
     /* background: #f4f4f4; */
-    /* margin-left: 5vw; */
+    margin-left: 4vw;
     padding: .5vw;
     border-radius: .5vw;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
@@ -664,9 +672,18 @@ input {
     font-size: 1vw;
     margin-bottom: .8vw;
 }
-
+.box4 label{
+    font-size: .8vw;
+}
 /* Inputs et textarea */
-.box4 input, 
+.box4 input{
+    height: 1.5vw; 
+    width: 100%; 
+    padding: 1vw;
+    border: .1vw solid #ccc;
+    border-radius: 5px; 
+} 
+
 .box4 textarea {
     width: 100%;
     padding: 1vw;
@@ -717,7 +734,10 @@ input {
     margin: 0;
     color: black;
 }
+.map-container{
+    width: 55%;
 
+}
 /* Image de la carte */
 .map-container img {
     width: 100%;
@@ -762,7 +782,7 @@ footer {
 
 a {
     display: inline;
-    font-size: .6rem;
+    font-size: .7vw;
     margin: 3vw .8vw;
     color: white;
     text-decoration: none;
@@ -778,7 +798,7 @@ a:hover {
     margin: 0 2vw;
 }
 .column3{
-
+width: 100%;
 }
 .column3 .parent{
     width: 100%;
@@ -787,6 +807,7 @@ a:hover {
     position: relative;
 }
 .column3 .email-input {
+
     display: flex;
     align-items: center;
 }
@@ -794,16 +815,17 @@ a:hover {
 #email {
     background: none;
     width: 100%;
-    padding: .2vw;
+    padding: 1vw;
     /* margin-right: 5px; */
-    /* border: 1px solid #ccc; */
-    /* border-radius: 4px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
 }
 
 .column3 .email-input .send-button{
     /* background-color: #0830b6c6; */
     color: white;
-    border: none;
+    border:none ;
     background: none;
     /* padding: ; */
     cursor: pointer;
@@ -820,14 +842,14 @@ a:hover {
     background-color:rgb(241, 188, 51);
 }
 .column2 p{
-    font-size: .8rem;
+    font-size: .8vw;
     padding: 1vw;
     margin-top: 2vw;
     color: white;
 }
 
 .column3 p{
-    font-size: 0.9rem;
+    font-size: 0.9vw;
     color: white;
     /* padding: 1vw; */
     margin-bottom: 2vw;

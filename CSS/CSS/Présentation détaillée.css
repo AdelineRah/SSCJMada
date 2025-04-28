@@ -23,7 +23,7 @@ body{
      width: 45%;
      /* margin: 10vw auto; */
      background: #fff;
-     padding: 2vw;
+     padding: 5vw;
      border-radius: 2vw;
      /* box-shadow: 0vw 10vw 5vw rgba(222, 221, 221, 0.715); */
      font-family: "Arial", sans-serif;
@@ -35,7 +35,7 @@ body{
         flex-direction: column;
         display: flex;
         padding: 1vw; 
-        /* margin-top: 15vw; */
+        margin-top: 15vw;
     }
     .photos .container-img{
         width: 100%;

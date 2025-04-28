@@ -103,7 +103,7 @@ padding-left: 3vw;
     font-size: 1vw;
     /* background: #9dd1f4c3; */
     color: black;
-    padding: .6vw;
+    padding: .4vw;
     text-align: center;
     text-decoration: none;
     border-radius: 2vw;
@@ -112,9 +112,10 @@ padding-left: 3vw;
     border:solid black .1vw;
 }
     
-    .S_inscrire:hover {
-        background: rgb(241, 188, 51);
+.S_inscrire:hover {
+    background: rgb(241, 188, 51);
     color: white
-    }
+   
+}
 
     

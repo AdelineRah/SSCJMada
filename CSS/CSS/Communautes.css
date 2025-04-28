@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+    font-family: 'Poppins', 'sans-serif';
+    /* overflow-x: hidden; */
+    padding: 5rem 10%;
+}
+#communautes{
+    width: 100%;
+    padding: 1vw; 
+}
+#communautes h1{
+    color:rgba(248, 183, 18, 0.595) ;
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 2vw;
+     padding: 4vw;
+    }
+#communautes .box7{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1vw;
+    gap: 4vw;
+}
+
+#communautes .box7 img{
+    width: 45%;
+    height: 25vw;
+}
+#communautes .texte2{ 
+    width: 45%;
+}
+#communautes .texte2 p{
+    font-size: 1.2vw;
+    padding: .6vw;
+    text-align: justify;
+}
+#communautes .texte2  blockquote {
+    background:rgba(249, 189, 189, 0.837);
+    border-left: 1vw solid  #8B0000;
+    font-style: italic;
+    font-size: 1.2vw;
+    text-align: justify;
+    padding: .6vw;
+    margin-top:1.8vw;
+}
+  #milieu{
+    width: 100%;
+    padding: 1vw;
+    margin-top: 4vw;
+  }  
+  .titre2{
+    width: 100%;
+  }
+  .titre2 h2{
+    /* border: solid blue; */
+    width: 25vw;
+    padding: 4vw;
+    margin-bottom: 4vw;
+    text-align: center;
+    position: relative;
+    top: 0vw;
+    left: 25vw;
+  }
+
+ .insertion{
+    margin-top: 1vw;
+    overflow: hidden; 
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 4vw;
+   
+ }
+.batiment {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Sainte\ Thérèse.png") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Ste\ Thérèse.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.membre::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+ .adresse{
+    /* border: solid blue; */
+    width: 18vw;
+    text-align: center;
+    position: absolute;
+    bottom: 0vw;
+    left: 0vw;
+}
+ .adresse h6{
+       color: white;
+       font-size: 1vw;
+       font-weight: bold;
+
+   }
+ .texte3{
+    /* border: solid blue; */
+    width: 25vw;
+    position: absolute;
+    bottom: 0vw;
+    left: 1vw;
+   }
+
+ .adresse p{
+    font-size: 1vw;
+    color: white;
+   }
+ h4{
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.batiment1 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Saint\ Jean.png") no-repeat center/cover;
+    padding: 9vw;
+}
+.membre1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+
+.membre1 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Cté\ du\ Postulat.png") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.batiment2 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Ankazo.png") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre2 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Ankazo.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.membre2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+
+.batiment3 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Mandoto.png") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre3 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Ascociés\ 17\ Mandoto.jpg") no-repeat center/cover;
+    padding: 9vw;
+ }
+
+.membre3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+
+
+.batiment4 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Ambositra.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre4 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/La\ communauté\ d\'Ambositra.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.membre4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+
+.batiment5 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Soavina.png") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre5 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/IMG_20250325_182100_638.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.membre5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+
+.batiment6 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Ambatoroka.png") no-repeat center/cover;
+    padding: 9vw;
+}
+.batiment6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre6 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Ambatoroka.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.membre6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+
+.batiment7 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Androhibe.png") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment7::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre7 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Associés\ Tana.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.membre7::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+
+
+.batiment8 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Androhibe.png") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre8 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Cté\ Etudiante.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.membre8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+
+
+.batiment9 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Bevato.png") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment9::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre9 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Associés\ Bevato.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.membre9::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+
+
+.batiment10 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Ambatolahy.png") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment10::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre10 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Ambatolahy.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.membre10::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+
+.batiment11 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Morondava.png") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment11::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre11 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Cté\ Morondava.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.membre11::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+
+.batiment12 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Ranomafana.png") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment12::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre12 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Ranomafana.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.membre12::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+
+.batiment13 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Ankily.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment13::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre13 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Ankily.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.membre13::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
+
+.batiment14 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/Maison\ Saint\ Jean.png") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.batiment14::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 9, 9, 0.427);
+}
+.membre14 {
+    position: relative;
+    width: 44%;
+    background: url("../../images/IMG_20250325_182100_638.jpg") no-repeat center/cover;
+    padding: 9vw;
+}
+
+.membre14::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 14, 253, 0.373);
+}
