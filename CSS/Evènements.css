@@ -4,13 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', 'sans-serif';
+    padding: 5rem 10%;
+}
 #Evoi\ en\ mission {
     width: 80%;
     margin: auto;
     padding: 2vw 0;
-    font-family: 'Poppins', 'sans-serif';
 }
+h1{
+    text-align: center;
+    font-size: 4vw;
+    text-transform: capitalize;
+    color:  rgb(241, 188, 51)  
 
+}
 .Mission {
     display: flex;
     align-items: center;
@@ -39,7 +48,6 @@
 
 .Ninnah p {
     font-size: 1vw;
-    font-size: 1vw;
     color: #555;
     line-height: 1.6;
     text-align: justify;
@@ -47,3 +55,16 @@
     /* padding: 1vw; */
 }
  
+
+#Formation{
+    width: 80%;
+    margin: auto;
+    padding: 2vw 0;
+   
+}
+#Formation h1{
+    text-align: center;
+    font-size: 4vw;
+    text-transform: capitalize;
+    color:  rgb(241, 188, 51)    
+}

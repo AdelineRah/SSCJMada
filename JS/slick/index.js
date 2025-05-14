@@ -1,12 +1,12 @@
 
-$('.slides').slick({
+$('.slide-ass').slick({
     autoplay: true,
     speed: 250,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
     infinite: true,
-    dots:true,
+    dots:false,
     responsive: [
           {
             breakpoint: 900,

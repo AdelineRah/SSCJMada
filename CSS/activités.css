@@ -17,9 +17,6 @@ body{
     margin-bottom: 2vw;
     /* margin-top: 20vw; */
 }
-.nous h2{
-
-}
 .box-d{
     /* background-color: rgba(20, 190, 246, 0.773); */
     /* margin-top: 4vw; */
@@ -69,7 +66,7 @@ body{
     font-size: 1.5vw;
     /* margin-top: 3vw; */
 }
-.box-d .boxa #btn2{
+.box-d .boxa #VoirplusEducation{
     display: block;
     width:6vw;
     font-size: 1vw;
@@ -84,8 +81,449 @@ body{
     /* margin-left: 2vw; */
     border:solid black .1vw;
 }
-.box-d .boxa  #btn2:hover {
+.box-d .boxa  #VoirplusEducation:hover {
     background: rgb(241, 188, 51);
     color: white;
     border: solid white .1vw;
 }   
+
+.box-d .boxa #VoirplusProfession{
+    display: block;
+    width:6vw;
+    font-size: 1vw;
+    /* background: #9dd1f4c3; */
+    color: black;
+    padding: .4vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    /* margin-left: 2vw; */
+    border:solid black .1vw;
+}
+.box-d .boxa  #VoirplusProfession:hover {
+    background: rgb(241, 188, 51);
+    color: white;
+    border: solid white .1vw;
+}  
+
+.box-d .boxa #VoirplusSanté{
+    display: block;
+    width:6vw;
+    font-size: 1vw;
+    /* background: #9dd1f4c3; */
+    color: black;
+    padding: .4vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    /* margin-left: 2vw; */
+    border:solid black .1vw;
+}
+.box-d .boxa  #VoirplusSanté:hover {
+    background: rgb(241, 188, 51);
+    color: white;
+    border: solid white .1vw;
+}  
+.box-d .boxa #VoirplusPrison{
+    display: block;
+    width:6vw;
+    font-size: 1vw;
+    /* background: #9dd1f4c3; */
+    color: black;
+    padding: .4vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    /* margin-left: 2vw; */
+    border:solid black .1vw;
+}
+.box-d .boxa  #VoirplusPrison:hover {
+    background: rgb(241, 188, 51);
+    color: white;
+    border: solid white .1vw;
+}  
+.box-d .boxa #VoirplusMouvement{
+    display: block;
+    width:6vw;
+    font-size: 1vw;
+    /* background: #9dd1f4c3; */
+    color: black;
+    padding: .4vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    /* margin-left: 2vw; */
+    border:solid black .1vw;
+}
+.box-d .boxa  #VoirplusMouvement:hover {
+    background: rgb(241, 188, 51);
+    color: white;
+    border: solid white .1vw;
+}  
+.box-d .boxa #VoirplusOeuvres{
+    display: block;
+    width:6vw;
+    font-size: 1vw;
+    /* background: #9dd1f4c3; */
+    color: black;
+    padding: .4vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    /* margin-left: 2vw; */
+    border:solid black .1vw;
+}
+.box-d .boxa  #VoirplusOeuvres:hover {
+    background: rgb(241, 188, 51);
+    color: white;
+    border: solid white .1vw;
+} 
+
+
+
+#EducationDetailler{
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     overflow-y: auto;
+     background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
+     z-index: 1000;
+     padding: 50px 20px;
+     box-sizing: border-box; 
+}
+#EducationDetailler .box-d{
+    width: 80%;
+    background: white;
+    margin: auto;
+    padding: 2vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+#EducationDetailler .box-d img{
+    width: 35vw;
+    height: 25vw;
+    border-radius: 1vw;
+    margin: auto;
+}
+#EducationDetailler .box-d .boxa{
+    width: 100%;
+    padding: 4vw;
+    border: none;
+
+}
+#EducationDetailler .box-d .para{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#EducationDetailler .box-d .para .scolaire{
+    width: 30%;
+    text-align: center;
+    padding: 2vw;
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding-top: 0vw;
+    margin-bottom: 2vw;
+    position: relative;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+   
+}
+#EducationDetailler .box-d .para .scolaire img{
+    width: 20vw;
+    height: 15vw;
+}
+
+#EducationDetailler .box-d .para .scolaire .légende{
+
+}
+#EducationDetailler .box-d .para .scolaire .légende h6{
+    font-size:1vw;
+    position: absolute;
+    bottom: 0vw;
+    left: 2vw;
+}
+
+#EducationDetailler .box-d .Auteur{
+    width: 20vw;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items:center;
+    /* padding-left: 6vw; */
+    /* gap: .5vw; */
+    margin-top: 4vw; 
+    text-align: right;
+}
+
+#EducationDetailler .box-d .Auteur .Leséducatrices{
+    font-size: 1vw;
+}
+
+#EducationDetailler .box-d .Auteur img{
+    width: 3vw;
+    height: 3vw;
+    /* display: none; */
+    border: solid white .1vw;
+    object-fit: cover;
+    object-position: center;
+    align-items: center;
+    border-radius: 50%; 
+    box-shadow: 0vw .2vw 1vw rgba(0, 0, 0, 0.1);  
+}
+.btnVoirMoins{
+    display: block;
+    width:7vw;
+    font-size: 1vw;
+    /* background: #9dd1f4c3; */
+    color: black;
+    padding: .6vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    margin-left: 0vw;
+    border:solid black .1vw;
+    background: none;
+}
+
+.btnVoirMoins:hover{
+    background: rgb(241, 188, 51);
+    color: white;
+    border: solid white .1vw;
+}
+a{
+    cursor: pointer;
+}
+#ProfessionDetailler{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
+    z-index: 1000;
+    padding: 50px 20px;
+    box-sizing: border-box; 
+}
+#ProfessionDetailler .box-d{
+    width: 80%;
+    background: white;
+    margin: auto;
+    padding: 2vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+#ProfessionDetailler .box-d img{
+    width: 35vw;
+    height: 25vw;
+    border-radius: 1vw;
+}
+
+#ProfessionDetailler .box-d .boxa{
+    width: 100%;
+    padding: 4vw;
+    border: none;
+}
+#ProfessionDetailler .box-d .boxa h3{
+    font-size: 1vw;
+    color:rgb(241, 188, 51) ;
+}
+
+#ProfessionDetailler .box-d .boxa .Formation{
+    width:100%;
+    height: auto;
+    
+}
+
+#ProfessionDetailler .box-d .boxa .Formation .Catéchèse{
+    margin-top: 6vw;
+    display: flex;
+    /* box-shadow: 0 0 0.6vw rgba(0, 0, 0, 0.425); */
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vw;
+    /* gap: 4vw; */
+}
+
+#ProfessionDetailler .box-d .boxa .Formation .Catéchèse img{
+    width: 40%;
+    height: 20vw;
+    padding: 0 !important;
+    margin: 0 !important; 
+}
+#ProfessionDetailler .box-d .boxa .Formation .Catéchèse .filière{
+    width: 40%;
+
+}
+#ProfessionDetailler .box-d .boxa .Formation .Catéchèse .filière h4{
+    font-size: 1vw;
+    margin-bottom: 4vw;
+    text-transform: uppercase;
+}
+#ProfessionDetailler .box-d .boxa .Formation .Catéchèse .filière p{
+    font-size: 1vw;
+}
+#ProfessionDetailler .box-d .boxa .Formation .Pédagogie{
+    margin-top: 6vw;
+    display: flex;
+    /* box-shadow: 0 0 0.6vw rgba(0, 0, 0, 0.425); */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1vw;
+    /* gap: 4vw; */
+
+}
+
+#ProfessionDetailler .box-d .boxa .Formation .Pédagogie .filière{
+    width: 40%;
+    height: 20vw;
+
+}
+#ProfessionDetailler .box-d .boxa .Formation .Pédagogie .filière h4{
+    font-size: 1vw;
+    margin-bottom: 4vw;
+    text-transform: uppercase;
+}
+#ProfessionDetailler .box-d .boxa .Formation .Pédagogie .filière p{
+    font-size: 1vw;
+}
+
+#ProfessionDetailler .box-d .boxa .Formation .Pédagogie img{
+    width: 40%;
+    height: 20vw;
+}
+
+#ProfessionDetailler .box-d .boxa .Formation .Management{
+    margin-top: 6vw;
+    display: flex;
+    /* box-shadow: 0 0 0.6vw rgba(0, 0, 0, 0.425); */
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vw;
+}
+#ProfessionDetailler .box-d .boxa .Formation .Management .filière{
+    width: 40%;
+    height: 20vw;
+}
+#ProfessionDetailler .box-d .boxa .Formation .Management .filière h4{
+    font-size: 1vw;
+    margin-bottom: 4vw;
+    text-transform: uppercase;
+}
+#ProfessionDetailler .box-d .boxa .Formation .Management .filière p{
+    font-size: 1vw;
+}
+#ProfessionDetailler .box-d .boxa .Formation .Management img{
+    width: 40%;
+    height: 20vw;
+}
+
+#ProfessionDetailler .box-d .boxa .Formation .Soins{
+    margin-top: 6vw;
+    display: flex;
+    /* box-shadow: 0 0 0.6vw rgba(0, 0, 0, 0.425); */
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vw;
+    gap: 4vw;
+}
+
+#ProfessionDetailler .box-d .boxa .Formation .Soins img{
+    width: 40%;
+    height: 20vw;
+}
+
+#ProfessionDetailler .box-d .boxa .Formation .Soins .filière{
+    width: 40%;
+    height: 20vw;
+}
+#ProfessionDetailler .box-d .boxa .Formation .Soins .filière h4{
+    font-size: 1vw;
+    margin-bottom: 4vw;
+    text-transform: uppercase;
+}
+#ProfessionDetailler .box-d .boxa .Formation .Soins .filière p{
+    font-size: 1vw;
+    padding: 1vw;
+}
+
+#ProfessionDetailler .box-d .Auteur{
+    width: 20vw;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items:center;
+    /* padding-left: 6vw; */
+    /* gap: .5vw; */
+    margin-top: 4vw; 
+    text-align: right;
+}
+
+#ProfessionDetailler .box-d .Auteur .Lescollaboratrices{
+    font-size: 1vw;
+}
+
+#ProfessionDetailler .box-d .Auteur img{
+    width: 3vw;
+    height: 3vw;
+    /* display: none; */
+    border: solid white .1vw;
+    object-fit: cover;
+    object-position: center;
+    object-position: center;
+    align-items: center;
+    border-radius: 50%; 
+    box-shadow: 0vw .2vw 1vw rgba(0, 0, 0, 0.1);  
+}
+
+.btnVoirMoins{
+    display: block;
+    width:7vw;
+    font-size: 1vw;
+    /* background: #9dd1f4c3; */
+    color: black;
+    padding: .6vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    margin-left: 0vw;
+    border:solid black .1vw;
+    background: none;
+}
+
+.btnVoirMoins:hover{
+    background: rgb(241, 188, 51);
+    color: white;
+    border: solid white .1vw;
+}

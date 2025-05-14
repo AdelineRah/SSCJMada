@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', 'sans-serif';
+    overflow-x: hidden;
+} 
+
+#section-historique{
+    padding: 5rem 10%;
+    /* background: gainsboro; */
+    font-family: 'Poppins', 'sans-serif';
+    width: 100%;
+    
+}
+h1{
+    text-align: center;
+    font-size: 3vw;
+    padding-bottom: 2vw;
+    text-transform: capitalize;
+    color:  rgb(241, 188, 51)
+}
+.historique .box img{
+    width: 45%;
+    height: 30vw;
+    margin-right: 2vw;
+}
+
+.historique .box{
+    display: flex;
+    padding: 2vw;
+    gap: 4vw;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.1);
+}
+.historique .box .description{
+    width: 45%;
+    /* padding: 1.2vw; */
+    padding-top: 0vw;
+}
+.historique .box .description h2{
+    font-size: 1.5vw;
+    padding: 2vw;
+}
+.historique .box .description p{
+    font-size: 1.2vw;
+    padding: 1vw;
+    text-align: justify;
+
+}  
+.historique .box .description .Auteur{
+    width: 20vw;
+    display: flex;
+    justify-content: end;
+    /* flex-direction: column; */
+    align-items: center;
+    /* padding-left: 6vw; */
+    /* gap: .5vw; */
+    margin-top: 2vw; 
+}
+.historique .box .description .Auteur .Soeur{
+    font-size: 1vw;
+}
+.historique .box .description .Auteur .image{
+    width: 3vw;
+    height: 3vw;
+    /* display: none; */
+    border: solid white 1vw;
+    object-fit: cover;
+    object-position: center;
+    align-items: center;
+    border-radius: 50%; 
+    box-shadow: 0vw .2vw 1vw rgba(0, 0, 0, 0.1);  
+}
+.historique .box .description .Auteur img{
+    width: 3vw;
+    height: 3vw;
+    display: none;
+    border: solid white 1vw;
+    object-fit: cover;
+    object-position: center;
+    align-items: center;
+    border-radius: 50%; 
+    box-shadow: 0vw .2vw 1vw rgba(0, 0, 0, 0.1);
+}
+
+#missionnaires{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding:5rem 10%;
+    gap: 2vw;
+    
+}
+
+
+#missionnaires h1 {
+   font-size: 2vw;
+    color: #170c21;
+    text-align: center;
+    /* text-decoration: underline; */
+    padding: 3vw;
+    text-transform: uppercase;
+}
+
+
+.contenu {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+}
+
+.texte {
+    font-size: 1.2vw;
+    padding: 1.6vw;
+    width: 50%; 
+    text-align: justify;
+}
+.texte span{
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+.image {
+    width: 50%;
+    text-align: center;
+}
+img {
+    width: 100%;
+    max-width: 450px
+    
+}
+.highlight {
+    font-size: 1.1vw;
+    padding-left: 3vw;
+    font-weight: bold;
+    color: #b22222; 
+}
+ul {
+    font-weight: bold;
+    font-size: 1vw;
+    padding: 1vw;
+    margin-left: -2.5vw;
+}
+ul li{
+    padding-left: 3vw;
+    list-style: none;
+    
+    font-size: 1.2vw;
+}
+.contenu1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+}
+.colonne1 {
+    width: 50%; 
+}
+.colonne1 img {
+    width: 100%;
+    max-width: 450px; 
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+.colonne1 texte {
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.5;
+}

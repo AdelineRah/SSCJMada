@@ -1,4 +1,5 @@
  <header>
+    <h1>S.S.C.J.Mada</h1>
         <nav>
             <div class="logo">
                 <img src="images/sscj_logo_4c_francais_pays-madagascar1.png" alt="">

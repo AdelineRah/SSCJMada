@@ -97,7 +97,7 @@ margin-bottom: 2vw;
 .Ninnah .Soeurs {
     /* font-weight: bold; */
     font-size: 1vw;
-    text-transform: ;
+    text-transform:capitalize ;
     padding-left: 2vw;
     color: #333;
 }
@@ -108,4 +108,123 @@ margin-bottom: 2vw;
     height: 3vw;
     border-radius: 50%; 
     box-shadow: 0vw .2vw 1vw rgba(0, 0, 0, 0.1);
+}
+
+#Formations{
+    width: 100%;
+    /* margin: auto; */
+    /* padding: 40px 0; */
+    font-family: 'Poppins', sans-serif;
+}
+
+#Formations h1{
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    color: rgb(241, 188, 51);
+    margin-bottom: 2vw;  
+}
+
+
+.Fic {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin-bottom:3vw;
+    padding: 2vw;
+    background: #f9f9f9;
+    border-radius: .2vw;
+    box-shadow: 0vw .2vw 1vw rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.Fic h2{
+    font-size: 1.5vw;
+    padding: 4vw;
+}
+
+.Fic:hover {
+    transform: translateY(-5px);
+}
+
+.Fic-box{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.Fic-box img {
+    width: 40%;
+    height: 35vw;
+    border-radius: .6vw;
+    box-shadow: .1vw .1vw 1.5vw rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.Fic-box img:hover {
+    transform: scale(1.05);
+}
+
+
+.texte4 {
+    width: 40%;
+    /* padding: 1vw; */
+}
+
+
+.texte4 h2 {
+    color: #2c3e50;
+    font-size: 2vw;
+    /* padding: 4vw; */
+    font-weight: 600;
+    margin-bottom: 3vw;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.texte4 h2::before {
+    /* content: "📌"; */
+    font-size: 2vw;
+    color: #e7d33c;
+}
+
+
+.texte4 p {
+    /* width: 35vw; */
+    font-size: 1.2vw;
+    /* padding: 4vw; */
+    color: #555;
+    line-height: 1.8;
+    text-align: justify;
+}
+.Fic-box .Auteur{
+    /* width: 30vw; */
+    display: flex;
+    /* justify-content: end; */
+    /* flex-direction: column; */
+    align-items: center;
+    gap: .5vw;
+    margin-top: 2vw; 
+}
+.Fic-box .Soeurs {
+    /* font-weight: bold; */
+    font-size: .9vw;
+    /* text-transform:lowercase ; */
+    padding-left:5vw;
+    color: #333;
+}
+
+.Fic-box .Auteur img{
+    width: 2vw;  
+    height: 2vw;
+    /* object-fit: cover; */
+    object-position: center;
+    align-items: center;
+    border-radius: 50%; 
+    box-shadow: 0vw .2vw 1vw rgba(0, 0, 0, 0.1);
+}
+.Fic-box .Auteur p{
+    /* background: #e7d33c; */
+    width: 18vw;
 }

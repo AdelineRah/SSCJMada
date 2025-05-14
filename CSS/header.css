@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    /* height: 50%; */
+    padding: 0 8vw;
+    background: rgba(69, 67, 67, 0.87);
+    position:fixed;
+    z-index: 100;
+   
+    /* padding-top: 4vw; */
+}
+header .logo{
+ 
+}
+
+header .logo img{
+
+   width: 10vw;
+   border-radius: .3vw;
+   
+   
+}
+nav { 
+    color: black; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    text-decoration: none;
+    /* padding: 3vw;  */
+}
+nav ul {
+    /* background: rosybrown; */
+    list-style: none; 
+    display: flex; 
+}
+.dropdown{
+    background:rgba(205, 77, 77, 0.915);
+    border-radius: .5vw;
+    position: absolute;
+    top: 1.6vw;
+    width: 15vw;
+
+}
+.dropdown li{
+    text-align: left; 
+    width: 100%;
+}
+.dropdown li a {
+    margin: 0 !important;
+    text-decoration: none;
+
+}
+nav ul li {
+    position: relative;
+    margin: 0 2vw; 
+}
+nav ul li a { 
+    color: white; 
+    text-decoration: none !important;
+    font-size: 1.5vw;
+}
+        nav ul li ul { 
+    display: none;
+    position: absolute; 
+    top: 0%; 
+    left: 0; 
+    /* background: #edeeee; */
+    /* padding: 9vw;  */
+    list-style: none; 
+}
+nav ul li:hover ul {
+    display: block; 
+}
+
+
+nav ul li ul li a{
+    color:black;
+}
+nav ul li ul li a:hover{
+    color:rgb(255, 234, 6);
+}
+nav ul li ul li {
+    margin: 1.2vw ;
+}
+#btn-donation {
+    width: 8vw;
+    background: rgb(241, 188, 51);
+    padding: .4vw;
+    border-radius: .4vw;
+    border:none;
+    color: white;
+    text-align: center;
+    font-size: 1.2vw;  
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+}

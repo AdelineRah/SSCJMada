@@ -17,8 +17,8 @@ body{
         align-items: center;
         padding: 5rem 10%;
         margin-top: 10vw;
-        /* width: 100%;
-        height: 40%; */
+        width: 100%;
+        /* height: 40%; */
   }
   #Etapes .F{
   
@@ -39,32 +39,35 @@ body{
       justify-content: space-evenly;
       display: flex;
       padding: 1vw;
+      gap: 4vw;
   }
   
   #Etapes .box-c .c{
       /* background: rgba(255, 255, 255, 0.674); */
-      margin-top: 4vw;
-      margin-bottom: 2vw;
+      margin-top: 6vw;
+      /* margin-bottom: 2vw; */
       width: 40%;
-      /* height: 100%; */
+      height: 20vw;
   }
-  .box-c img{
+ #Etape .box-c img{
       width: 40%;
-      height: auto;
+      height: 20vw;
       margin-top: 4vw;
       margin-bottom: 2vw;
       padding: 1vw;
       border-radius: 1vw;
   }
-  .box-c .c h4{
+  #Etape .box-c .c h4{
       text-transform: uppercase;
       font-size: 2vw;
+      margin: 0vw;
       text-align: center;
      
   }
  
-  .box-c p{
+  #Etape .box-c .c p{
      text-align: justify;
+     margin: 0vw;
      /* padding: 1vw; */
   }
   blockquote {
@@ -75,12 +78,13 @@ body{
     font-size: 1vw;
     padding: 1vw;
     margin: 3vw 2vw;
-    width: 90%;
+    width:100%;
 }
 p {
     line-height: 1.6;
+    font-size: 1.2vw;
     color: #555;
-    margin: 3vw 2vw;
+    margin: 3vw .8vw;
 
 }
 .G {
@@ -108,3 +112,188 @@ p {
     color: white;
     border: solid white .1vw;
 }
+
+
+ 
+ #NoviciatDetailler {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
+    z-index: 1000;
+    padding: 50px 20px;
+    box-sizing: border-box;
+  }
+  
+  #NoviciatDetailler .box-c {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    /* max-width: 800px; */
+    margin: auto;
+  }
+
+  #NoviciatDetailler .box-c {
+    width: 80%;
+     background: white;
+     margin: auto;
+     border-radius: 2vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+ }
+ #NoviciatDetailler .box-c img {
+    width: 100%;
+    height: 40vw;
+    margin: auto;
+ }
+ #NoviciatDetailler .box-c .c {
+    padding: 5vw;
+ }
+
+ 
+ .box-c img{
+     width: 40%;
+     height: 25vw;
+     margin-top: 7vw;
+     border-radius: 1vw;
+ }
+ h4 {
+     text-transform: uppercase;
+     text-align: center;
+     color: rgb(241, 188, 51);
+     font-size: 2vw;
+     /* padding: 1vw; */
+ }
+ p {
+     text-align: justify;
+     line-height: 1.6;
+ }
+ ul {
+     padding-left: 4vw;
+ }
+ li {
+     margin-bottom: 2vw;
+     list-style: none;
+ }
+ 
+  #NoviciatDetailler .box-c .btnVoirMoins{
+    display: block;
+    width:7vw;
+    font-size: 1vw;
+    background: none;
+    color: black;
+    padding: .6vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2vw;
+    font-weight: bold;
+    margin-left: 2vw;
+    border:solid black .1vw;
+  }
+  #NoviciatDetailler .box-c .btnVoirMoins:hover{
+    background: rgb(241, 188, 51);
+    color: white;
+    border: solid white .1vw;
+  }
+
+
+  #ProfesseTemporaireDetailler {
+   display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px 20px;
+  box-sizing: border-box;
+  }
+  
+  #ProfesseTemporaireDetailler .box-c {
+    background-color: white;
+    padding: 1vw 10vw 5vw 1vw;
+    width: 100%;
+    /* height: 40vw; */
+    border-radius:1vw;
+    /* max-width: 800px; */
+    margin: auto;
+  }
+  #ProfesseTemporaireDetailler .box-c .prof{
+    width: 40% ;
+     /* height: 20%; */
+     /* padding: 1vw; */
+     margin: 0;
+     border-radius: 2vw;
+     position: relative;
+     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+ }
+ #ProfesseTemporaireDetailler .box-c .prof p{
+    position: absolute; 
+    z-index: 2;
+    left: 1vw;
+    bottom: 1vw;
+    margin: 0;
+    background: white;
+    border-radius: 1vw;
+    font-weight: bold;
+    padding: .5vw 1vw;
+ }
+
+ #ProfesseTemporaireDetailler .box-c .c{
+    height: auto;
+    width: 40%;
+ }
+ #ProfesseTemporaireDetailler .box-c .c p{
+    margin: 1vw 0;
+}
+
+ #ProfesseTemporaireDetailler .box-c img{
+     width: 100%;
+     height: auto;
+     border-radius: 1vw;
+ }
+ h4 {
+     text-transform: uppercase;
+     text-align: center;
+     color: rgb(241, 188, 51);
+     font-size: 2vw;
+     /* padding: 1vw; */
+ }
+ p {
+     text-align: justify;
+     line-height: 1.6;
+ }
+ ul {
+     padding-left: 4vw;
+ }
+ li {
+     margin-bottom: 2vw;
+     list-style: none;
+ }
+  #ProfesseTemporaireDetailler .box-c .btnVoirMoins{
+    display: block;
+    width:7vw;
+    font-size: 1vw;
+    background: none;
+    color: black;
+    padding: .6vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2vw;
+    font-weight: bold;
+    margin-left: 2vw;
+    border:solid black .1vw;
+  }
+  #ProfesseTemporaireDetailler .box-c .btnVoirMoins:hover{
+    background: rgb(241, 188, 51);
+    color: white;
+    border: solid white .1vw;
+  }
