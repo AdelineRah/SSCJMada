@@ -5,8 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Poppins', 'sans-serif';
-    overflow-x: hidden;
+       overflow-x: hidden;
 } 
 
 #section-historique{
@@ -19,9 +18,10 @@ body{
 h1{
     text-align: center;
     font-size: 3vw;
+    padding-top: 8vw;
     padding-bottom: 2vw;
     text-transform: capitalize;
-    color:  rgb(241, 188, 51)
+    color: rgb(241, 188, 51) ;
 }
 .historique .box img{
     width: 45%;
@@ -97,12 +97,13 @@ h1{
 
 
 #missionnaires h1 {
-   font-size: 2vw;
-    color: #170c21;
+   font-size: 3vw;
+    color: rgb(241, 188, 51);
     text-align: center;
     /* text-decoration: underline; */
-    padding: 3vw;
-    text-transform: uppercase;
+    padding-top: 0vw !important;
+    padding-bottom:6vw;
+    text-transform: capitalize;
 }
 
 

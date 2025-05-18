@@ -3,14 +3,17 @@
     padding: 0;
     box-sizing: border-box ;
 }
-body{
-    font-family: 'Poppins', 'sans-serif';
+html,body{
+    margin: 0;
+    padding: 0;
     /* overflow-x: hidden; */
-    padding: 5rem 10%;
 }
+
 #communautes{
+    padding: 5rem 10%;
+    font-family: 'Poppins', 'sans-serif';
     width: 100%;
-    padding: 1vw; 
+    /* padding: 1vw;  */
 }
 #communautes h1{
     color:rgba(248, 183, 18, 0.595) ;

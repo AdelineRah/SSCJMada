@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    padding: 5rem 10%;
-    
+    margin: 0;
+    padding: 0;
 }
 
 #Evoi\ en\ mission {
@@ -14,12 +14,14 @@ body{
     margin: auto;
     /* padding: 40px 0; */
     font-family: 'Poppins', sans-serif;
+    padding: 5rem 10%;
 }
 #Evoi\ en\ mission h1{
 font-size: 1.2vw;
 text-transform: uppercase;
 color: rgb(241, 188, 51);
 margin-bottom: 2vw;
+padding-top: 8vw;
 }
 
 .Mission {
@@ -113,7 +115,7 @@ margin-bottom: 2vw;
 #Formations{
     width: 100%;
     /* margin: auto; */
-    /* padding: 40px 0; */
+    padding: 5rem 10%;
     font-family: 'Poppins', sans-serif;
 }
 

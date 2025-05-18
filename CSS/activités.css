@@ -4,11 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    padding: 5rem 10%;
+html,body{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+#Education{
+    padding: 5rem 10%;
 
+}
 .nous h1{
     font-size: 2vw;
     color: rgb(241, 188, 51);
@@ -323,7 +327,7 @@ a{
     width: 100%;
     height: 100%;
     overflow-y: auto;
-    background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
+    background-color: rgba(0, 0, 0, 0.7); 
     z-index: 1000;
     padding: 50px 20px;
     box-sizing: border-box; 
@@ -351,7 +355,7 @@ a{
     border: none;
 }
 #ProfessionDetailler .box-d .boxa h3{
-    font-size: 1vw;
+    font-size: 1.2vw;
     color:rgb(241, 188, 51) ;
 }
 
@@ -467,12 +471,12 @@ a{
     height: 20vw;
 }
 #ProfessionDetailler .box-d .boxa .Formation .Soins .filière h4{
-    font-size: 1vw;
+    font-size: 1.2vw;
     margin-bottom: 4vw;
     text-transform: uppercase;
 }
 #ProfessionDetailler .box-d .boxa .Formation .Soins .filière p{
-    font-size: 1vw;
+    font-size: 1.2vw;
     padding: 1vw;
 }
 
@@ -499,12 +503,497 @@ a{
     border: solid white .1vw;
     object-fit: cover;
     object-position: center;
+    align-items: center;
+    border-radius: 50%; 
+    box-shadow: 0vw .2vw 1vw rgba(0, 0, 0, 0.1); 
+}
+
+.btnVoirMoins{
+    display: block;
+    width:7vw;
+    font-size: 1vw;
+    /* background: #9dd1f4c3; */
+    color: black;
+    padding: .6vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    margin-left: 0vw;
+    border:solid black .1vw;
+    background: none;
+}
+
+.btnVoirMoins:hover{
+    background: rgb(241, 188, 51);
+    color: white;
+    border: solid white .1vw;
+}
+
+
+#SantéDetailler{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1000;
+    padding: 50px 20px;
+    box-sizing: border-box; 
+}
+
+#SantéDetailler .box-d{
+    width: 80%;
+    background: white;
+    margin: auto;
+    padding: 2vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+#SantéDetailler .box-d img{
+    width: 35vw;
+    height: 25vw;
+    border-radius: 1vw;
+}
+#SantéDetailler .box-d .boxa{
+    width: 100%;
+    padding: 4vw;
+    border: none;
+}
+
+#SantéDetailler .box-d .boxa h3{
+    font-size: 2vw;
+    color:rgb(241, 188, 51) ;
+    padding-bottom: 2vw;
+}
+#SantéDetailler .box-d .boxa p{
+    font-size: 1vw;
+    padding: 1vw;
+}
+#SantéDetailler .box-d .Auteur{
+    width: 20vw;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items:center;
+    /* padding-left: 6vw; */
+    /* gap: .5vw; */
+    margin-top: 4vw; 
+    text-align: right;
+}
+#SantéDetailler .box-d .Auteur img{
+     width: 3vw;
+    height: 3vw;
+    /* display: none; */
+    border: solid white .1vw;
+    object-fit: cover;
     object-position: center;
     align-items: center;
     border-radius: 50%; 
     box-shadow: 0vw .2vw 1vw rgba(0, 0, 0, 0.1);  
 }
+#SantéDetailler .box-d .Auteur .SrRobertine{
+    font-size: 1vw;
+}
 
+#PrisonDetailler{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1000;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+#PrisonDetailler .box-d{
+    width: 80%;
+    background: white;
+    margin: auto;
+    padding: 2vw;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: row
+    /* justify-content: space-evenly; */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+#PrisonDetailler .box-d h2{
+    font-size: 2vw;
+    color:rgb(241, 188, 51) ;
+    padding-bottom: 4vw;
+}
+#PrisonDetailler .box-d .images{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#PrisonDetailler .box-d .images .Détenus{
+    width: 100%;
+    padding: 1.5vw;
+    padding-left: 4vw;
+    text-align: left;
+}
+#PrisonDetailler .box-d .images img{
+    width: 30vw;
+    height: 20vw;
+    position: relative;
+    border-radius: 1vw;
+}
+#PrisonDetailler .box-d .images .Photo2015{
+    font-size: 1.2vw;
+    color: white;
+    position: absolute;
+    left: 18vw;
+    bottom: 12vw;
+}
+#PrisonDetailler .box-d .boxa{
+    width: 100%;
+    padding: 4vw;
+    border: none;
+}
+#PrisonDetailler .box-d .boxa p{
+    font-size: 1.2vw;
+    padding: 1vw;
+}
+#PrisonDetailler .box-d .boxa .Lova{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#PrisonDetailler .box-d .boxa .Lova .Notrefrere{
+    width: 100%;
+    font-size: 1.2vw;
+    text-transform: none;
+    padding: 1.5vw;
+    padding-left: 2vw;
+    text-align: left;
+}
+#PrisonDetailler .box-d .boxa .Lova img{
+    width: 20vw;
+    height: 22vw;
+    padding: 1vw;
+}
+
+#PrisonDetailler .box-d .boxa .Lova .Bénédiction{
+    font-size: 1vw;
+    color: white;
+    position: absolute;
+    left: 24vw;
+    bottom: 3vw;
+}
+#PrisonDetailler .box-d .boxa  .Charité{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#PrisonDetailler .box-d .boxa  .Parrainage{
+    width: 100%;
+    font-size: 1.2vw;
+    text-transform: none;
+    padding: 1.5vw;
+    padding-left: 2vw;
+    text-align: left;
+}
+#PrisonDetailler .box-d .boxa .Charité img{
+    width: 30vw;
+    height: 20vw;
+    border-radius: 1vw;
+}
+#PrisonDetailler .box-d .boxa .Charité .oeuvre{
+    width: 30vw;
+    height: 20vw;
+}
+#PrisonDetailler .box-d .boxa .Charité .oeuvre p{
+    font-size: 1.2vw;
+    padding: .8vw;
+}
+
+.btnVoirMoins{
+    display: block;
+    width:7vw;
+    font-size: 1vw;
+    /* background: #9dd1f4c3; */
+    color: black;
+    padding: .6vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    margin-left: 0vw;
+    border:solid black .1vw;
+    background: none;
+}
+
+.btnVoirMoins:hover{
+    background: rgb(241, 188, 51);
+    color: white;
+    border: solid white .1vw;
+}
+
+#MouvementDetailler{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 1000;
+    padding: 2vw 1vw;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+#MouvementDetailler .box-d{
+    width: 80%;
+    background: white;
+    margin: auto;
+    padding: 2vw;
+    border-radius: 2vw;
+   
+}
+#MouvementDetailler .box-d h3{
+   width: 100%;
+   text-align: center;
+    font-size: 2vw;
+    color:rgb(241, 188, 51) ;
+    padding-bottom: 4vw;
+}
+
+#MouvementDetailler .box-d .boxa{
+    width: 100%;
+    padding: 4vw;
+    border: none;
+}
+#MouvementDetailler .box-d .boxa .texte5{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4vw;
+}
+#MouvementDetailler .box-d .boxa .texte5 img{
+    width: 30vw;
+    height: 20vw;
+    border-radius: 1vw;
+    position: relative;
+}
+#MouvementDetailler .box-d .boxa .texte5 .mouvement{
+    font-size: 1vw;
+    position: absolute;
+    left: 5vw;
+    bottom: 51vw;
+    color: white;
+}
+#MouvementDetailler .box-d .boxa .texte5 p{
+    width: 30vw;
+    height: 20vw;
+    text-align: justify;
+    padding-top: 4vw;
+}
+#MouvementDetailler .box-d .boxa .texte5 .adulte{
+    font-size: 1vw;
+    position: absolute;
+    left: 39vw;
+    bottom: 29vw;
+    color: white;
+}
+#MouvementDetailler .box-d .boxa .texte5 .jeunes{
+    font-size: 1vw;
+    position: absolute;
+    left: 5vw;
+    bottom: 7vw;
+    color: white;
+}
+
+.btnVoirMoins{
+    display: block;
+    width:7vw;
+    font-size: 1vw;
+    /* background: #9dd1f4c3; */
+    color: black;
+    padding: .6vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+    margin-left: 0vw;
+    border:solid black .1vw;
+    background: none;
+}
+
+.btnVoirMoins:hover{
+    background: rgb(241, 188, 51);
+    color: white;
+    border: solid white .1vw;
+}
+#OeuvresDetailler{
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow-y: auto;
+      background-color: rgba(0, 0, 0, 0.7); 
+      z-index: 1000;
+      padding: 2vw 1vw;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;  
+}
+
+#OeuvresDetailler .box-d{
+    width: 80%;
+    background: white;
+    margin: auto;
+    padding: 2vw;
+    border-radius: 2vw;
+}
+
+#OeuvresDetailler .box-d h3{
+    width: 100%;
+    text-align: center;
+    text-transform:uppercase ;
+    font-size: 2vw;
+    color:rgb(241, 188, 51) ;
+    padding-bottom: 4vw;
+}
+#OeuvresDetailler .box-d img{
+    width: 45vw;
+    height: 25vw;
+    border-radius: 1vw;
+}
+
+#OeuvresDetailler .box-d .tete6{
+    width: 80%;
+    padding: 1vw;
+}
+#OeuvresDetailler .box-d .tete6 p{
+    font-size: 1.2vw;
+    padding-top: 8vw;
+
+}
+#OeuvresDetailler .box-d .boxa{
+    width: 100%;
+    padding: 4vw;
+    border: none;
+}
+#OeuvresDetailler .box-d .boxa .Antsirabe{
+    width: 100%;
+    padding: auto;
+}
+#OeuvresDetailler .box-d .boxa .Antsirabe h3{
+    font-size: 1.5vw;
+    text-align: left;
+    text-transform: none;
+    color: black;
+}
+#OeuvresDetailler .box-d .boxa .Antsirabe .Site{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4vw;
+}
+#OeuvresDetailler .box-d .boxa .Antsirabe .Site img{
+    width: 45%;
+    height: 15vw;
+}
+#OeuvresDetailler .box-d .boxa .Antsirabe .Site p{
+    width: 45%;
+    height: 15vw;
+}
+#OeuvresDetailler .box-d .boxa .Ambositra{
+    width: 100%;
+    padding: auto;
+}
+#OeuvresDetailler .box-d .boxa .Ambositra h3{
+    font-size: 1.5vw;
+    text-align: left;
+    text-transform: none;
+    color: black;
+}
+#OeuvresDetailler .box-d .boxa .Ambositra .Site{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4vw;
+}
+#OeuvresDetailler .box-d .boxa .Ambositra .Site img{
+    width: 45%;
+    height: 15vw;
+}
+#OeuvresDetailler .box-d .boxa .Ambositra .Site p{
+    width: 45%;
+    height: 15vw;
+}
+#OeuvresDetailler .box-d .boxa .Antananarivo{
+    width: 100%;
+    padding: auto;
+}
+#OeuvresDetailler .box-d .boxa .Antananarivo h3{
+    font-size: 1.5vw;
+    text-align: left;
+    text-transform: none;
+    color: black;
+}
+#OeuvresDetailler .box-d .boxa .Antananarivo .Site{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4vw;
+}
+#OeuvresDetailler .box-d .boxa .Antananarivo .Site img{
+    width: 45%;
+    height: 18vw;
+}
+#OeuvresDetailler .box-d .boxa .Antananarivo .Site p{
+    width: 45%;
+    height: 18vw;
+}
+#OeuvresDetailler .box-d .boxa .Bevato{
+    width: 100%;
+    padding: auto;
+}
+#OeuvresDetailler .box-d .boxa .Bevato h3{
+    font-size: 1.5vw;
+    text-align: left;
+    text-transform: none;
+    color: black;
+}
+#OeuvresDetailler .box-d .boxa .Bevato .Site{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4vw;
+}
+#OeuvresDetailler .box-d .boxa .Bevato .Site img{
+    width: 45%;
+    height: 18vw;
+}
+#OeuvresDetailler .box-d .boxa .Bevato .Site p{
+    width: 45%;
+    height: 18vw;
+}
 .btnVoirMoins{
     display: block;
     width:7vw;
