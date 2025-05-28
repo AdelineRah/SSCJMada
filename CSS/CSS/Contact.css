@@ -74,7 +74,7 @@
     flex-direction: column;
     display: flex;
 }
-/* Hover effect pour les icônes */
+
 .pul li:hover .icon svg {
     fill: #0056b3;
 }

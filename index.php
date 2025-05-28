@@ -49,7 +49,7 @@
                     </li>
                    
                 </ul>
-               <a href="donation" id="btn-donation">Donation</a>
+               <a href="Donation.html" id="btn-donation">Donation</a>
             </nav>
     </header>
     <section id="presentationDetailler" class="presentationDetailler" >

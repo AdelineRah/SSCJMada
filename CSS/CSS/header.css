@@ -39,10 +39,10 @@ nav ul {
     display: flex; 
 }
 .dropdown{
-    background:rgba(205, 77, 77, 0.915);
+    background:rgba(205, 77, 77, 0.992);
     border-radius: .5vw;
     position: absolute;
-    top: 1.6vw;
+    top: 1.8vw;
     width: 15vw;
 
 }
@@ -64,7 +64,14 @@ nav ul li a {
     text-decoration: none !important;
     font-size: 1.5vw;
 }
-        nav ul li ul { 
+nav ul li a:hover{
+    font-size: 1.8vw;
+    font-weight: bold;
+    /* margin-bottom: 2vw; */
+    color: rgb(241, 188, 51);
+    
+}
+nav ul li ul { 
     display: none;
     position: absolute; 
     top: 0%; 
@@ -82,7 +89,7 @@ nav ul li ul li a{
     color:black;
 }
 nav ul li ul li a:hover{
-    color:rgb(255, 234, 6);
+    color: rgb(241, 188, 51);
 }
 nav ul li ul li {
     margin: 1.2vw ;

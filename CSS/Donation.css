@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    font-family:'Poppins', sans-serif ;
+    background-color: #f0f0f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46vw;
+    margin: 0;
+  }
+
+  .form-container {
+    background-color: #fff;
+    padding: 2vw;
+    width: 40vw;
+    border-radius:1vw;
+    box-shadow: 0 .4vw 1.2vw rgba(0, 0, 0, 0.1);
+  }
+
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .form-header h2 {
+    margin: 0;
+    font-size: 2vw;
+  }
+
+  .close-btn {
+    background: none;
+    border: none;
+    font-size:1.2vw;
+    cursor: pointer;
+  }
+
+  .tabs {
+    display: flex;
+    margin-top:.6vw;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .tab {
+    flex: 1;
+    text-align: center;
+    padding: 1vw;
+    cursor: pointer;
+    font-weight: bold;
+    color: #aaa;
+  }
+
+  .tab.active {
+    border-bottom: .2vw solid #6a5acd;
+    color: #333;
+  }
+
+  .form-group {
+    margin: 1.5vw 0;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: .2vw;
+    font-weight: bold;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: .6vw;
+    border: 1px solid #ccc;
+    border-radius: .8vw;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1vw;
+    background-color: #f9f9f9;
+    padding: 1vw;
+    border-radius: .8vw;
+    border: .1vw solid #ccc;
+  }
+
+  .tag {
+    width: 100%;
+    background-color: #e0e0e0;
+    padding: .5vw 9vw;
+    border-radius: 2vw;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+  }
+
+  .btn {
+    padding: .6vw 1.5vw;
+    border-radius: .8vw;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .btn-cancel {
+    font-size: 1vw;
+    background-color: #f0f0f0;
+  }
+
+  .btn-save {
+    font-size: 1vw;
+    background-color: #000;
+    color: #fff;
+  }

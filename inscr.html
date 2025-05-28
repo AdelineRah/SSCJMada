@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <link rel="shortcut icon" href="images/sscj_logo_4c_francais_pays-madagascar.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="CSS/inscr.css" />
+  <title>FORMULAIRE D'INSCRIPTION</title>
+</head>
+<body>
+
+  <div class="container">
+    <h2> FORMULAIRE D'INSCRIPTION</h2>
+    <p>Veuillez remplir le formulaire d'inscription.</p>
+
+    <form id="commandeForm">
+
+      <h3>Critères humains et psychologiques</h3>
+      <div class="form-section">
+        <label>Nom  *</label>
+        <input type="text" required>
+
+        <label>Prénom</label>
+        <input type="text">
+
+        <label>Adresse *</label>
+        <input type="text" required>
+
+        <label>Complément d'adresse</label>
+        <input type="text">
+
+        <label>Ville *</label>
+        <input type="text" required>
+
+        <label>État / Province *</label>
+        <input type="text" required>
+
+        <label>Pays *</label>
+        <select required>
+          <option value="">-- Sélectionnez un pays --</option>
+          <option>France</option>
+          <option>Belgique</option>
+          <option>Canada</option>
+        </select>
+
+        <label>Numéro de téléphone *</label>
+        <input type="tel" required>
+
+        <label>Email *</label>
+        <input type="email" required>
+
+        <!-- <label><input type="checkbox" checked> Enregistrer l'adresse de livraison</label> -->
+      </div>
+
+      <h3>Critères intellectuels</h3>
+      <div class="form-section">
+        <label>Méthode de paiement</label>
+        <select>
+          <option>Carte de crédit</option>
+          <option>PayPal</option>
+        </select>
+
+        <label>Type de carte *</label>
+        <select required>
+          <option>Visa</option>
+          <option>MasterCard</option>
+          <option>American Express</option>
+        </select>
+
+        <label>Numéro de carte *</label>
+        <input type="text" maxlength="19" required>
+
+        <label>Date d'expiration *</label>
+        <div class="inline">
+          <select required>
+            <option>Jan</option><option>Fév</option><option>Mar</option>
+            <!-- etc -->
+          </select>
+          <select required>
+            <option>2024</option><option>2025</option><option>2026</option>
+          </select>
+        </div>
+
+        <label>Code de sécurité (CVV) *</label>
+        <input type="text" maxlength="4" required>
+      </div>
+
+    
+      <h3>Critères spirituels</h3>
+      <!-- <label><input type="checkbox" checked> Identique à l'adresse de livraison</label> -->
+
+    
+      <div class="buttons">
+        <button type="button" class="btn-vert" onclick="modifierDemande()">Modifier la demande</button>
+        <button type="reset" class="btn-gris">Annuler la demande</button>
+        <button type="submit" class="btn-bleu">Soumettre la demande</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="JS/js/inscr.js"></script>
+</body>
+</html>
+
+</body>
+</html>
